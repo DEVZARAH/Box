@@ -57,6 +57,14 @@ nav{
     display: flex;
     flex-direction: column;
 }
+.link{
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+
+}
 .main{
     padding: 20px;
     margin-left: 10px;
@@ -82,12 +90,6 @@ label{
 }
 .under{
     font-size: 12px;
-    margin-bottom: 10px;
-
-
-}
-.move{
-    margin-left: 40px;
 }
 button{
     width: 100%;
@@ -115,6 +117,12 @@ i{
 }
 #div-eye{
     position: relative;
+}
+@media screen  and (max-width:370px){
+    .under{
+    font-size: 10px;
+}
+    
 }
 
 @media screen and (min-width: 992px){
@@ -154,7 +162,7 @@ i{
       padding-bottom: 5%;
   }
   .move{
-      margin-left: 200px;
+      /* margin-left: 200px; */
   }
 
  
